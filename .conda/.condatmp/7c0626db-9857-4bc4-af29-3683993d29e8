@@ -1,0 +1,13 @@
+prefix=d:/work/.conda/Library
+exec_prefix=d:/work/.conda/Library
+libdir=d:/work/.conda/Library/lib
+sharedlibdir=d:/work/.conda/Library/lib
+includedir=d:/work/.conda/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
